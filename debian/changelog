@@ -1,3 +1,11 @@
+jasper (1.900.1-7+squeeze1) stable-security; urgency=high
+
+  * Backported patch from #652649:
+    - CVE-2011-4516: Heap-based buffer overflow
+    - CVE-2011-4517: Heap-based buffer overflow
+
+ -- Roland Stigge <stigge@antcom.de>  Thu, 22 Dec 2011 14:19:04 +0100
+
 jasper (1.900.1-7) unstable; urgency=low
 
   * Acknowledge NMU
