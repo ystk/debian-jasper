@@ -17,6 +17,5 @@ debian/tmp/usr/include/jasper/jas_tvp.h
 debian/tmp/usr/include/jasper/jas_types.h
 debian/tmp/usr/include/jasper/jas_version.h
 debian/tmp/usr/include/jasper/jasper.h
-debian/tmp/usr/lib/libjasper.a
-debian/tmp/usr/lib/libjasper.la
-debian/tmp/usr/lib/libjasper.so
+debian/tmp/usr/lib/*/libjasper.a
+debian/tmp/usr/lib/*/libjasper.so

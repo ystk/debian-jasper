@@ -1,3 +1,48 @@
+jasper (1.900.1-13) unstable; urgency=high
+
+  * Fix CVE-2011-4516 and CVE-2011-4517: Two buffer overflow issues possibly
+    exploitable via specially crafted input files (Closes: #652649)
+    Thanks to Red Hat and Michael Gilbert
+
+ -- Roland Stigge <stigge@antcom.de>  Wed, 04 Jan 2012 19:14:40 +0100
+
+jasper (1.900.1-12) unstable; urgency=low
+
+  * Added patch to fix filename buffer overflow, thanks to Jonas Smedegard
+    and Alex Cherepanov from ghostscript (Closes: #649833)
+
+ -- Roland Stigge <stigge@antcom.de>  Sun, 27 Nov 2011 19:56:01 +0100
+
+jasper (1.900.1-11) unstable; urgency=low
+
+  * Added Multiarch support, thanks to Colin Watson (Closes: #645118)
+
+ -- Roland Stigge <stigge@antcom.de>  Wed, 02 Nov 2011 17:16:10 +0100
+
+jasper (1.900.1-10) unstable; urgency=low
+
+  * Added debian/watch
+  * debian/patches/01-misc-fixes.patch:
+    - Separated out config.{guess,sub}
+
+ -- Roland Stigge <stigge@antcom.de>  Mon, 15 Aug 2011 19:09:29 +0200
+
+jasper (1.900.1-9) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Using new dh 7 build system
+
+ -- Roland Stigge <stigge@antcom.de>  Tue, 12 Jul 2011 20:21:21 +0200
+
+jasper (1.900.1-8) unstable; urgency=low
+
+  * Removed unneeded .la file (Closes: #633162)
+  * debian/control:
+    - Standards-Version: 3.9.2
+    - use libjpeg8-dev instead of libjpeg62-dev
+
+ -- Roland Stigge <stigge@antcom.de>  Mon, 11 Jul 2011 21:27:24 +0200
+
 jasper (1.900.1-7) unstable; urgency=low
 
   * Acknowledge NMU
