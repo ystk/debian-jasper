@@ -1,3 +1,26 @@
+jasper (1.900.1-debian1-2) unstable; urgency=medium
+
+  * debian/rules: Changed from dh $@ --with autotools_dev to autoreconf
+    to fix build issue on new architectures (Closes: #747507)
+
+ -- Roland Stigge <stigge@antcom.de>  Sun, 18 May 2014 19:46:12 +0200
+
+jasper (1.900.1-debian1-1) unstable; urgency=medium
+
+  * Re-packaged upstream tarball without srgb.icm (Closes: #736805)
+  * debian/control:
+    - Build-Depends: debhelper (>= 9)
+    - Standards-Version: 3.9.5
+
+ -- Roland Stigge <stigge@antcom.de>  Sat, 12 Apr 2014 22:38:23 +0200
+
+jasper (1.900.1-14) unstable; urgency=low
+
+  * Fix FTBFS on Hurd by defining PATH_MAX (Closes: #690298)
+    Thanks to Pino Toscano!
+
+ -- Roland Stigge <stigge@antcom.de>  Sat, 13 Oct 2012 18:06:57 +0200
+
 jasper (1.900.1-13) unstable; urgency=high
 
   * Fix CVE-2011-4516 and CVE-2011-4517: Two buffer overflow issues possibly
