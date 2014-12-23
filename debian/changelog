@@ -1,3 +1,13 @@
+jasper (1.900.1-7+squeeze3) squeeze-lts; urgency=high
+
+  * Non-maintainer upload by the Squeeze LTS Team.
+  * Add 05-CVE-2014-8137.patch patch.
+    CVE-2014-8137: double-free in in jas_iccattrval_destroy(). (Closes: #773463)
+  * Add 06-CVE-2014-8138.patch patch.
+    CVE-2014-8138: heap overflow in jp2_decode(). (Closes: #773463)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Mon, 22 Dec 2014 16:20:04 +0100
+
 jasper (1.900.1-7+squeeze2) squeeze-lts; urgency=high
 
   * Non-maintainer upload by the Squeeze LTS Team.
