@@ -2,7 +2,7 @@ Source: jasper
 Priority: optional
 Section: graphics
 Maintainer: Roland Stigge <stigge@antcom.de>
-Build-Depends: debhelper (>= 9), freeglut3-dev, libjpeg8-dev, libxi-dev, libxmu-dev, libxt-dev, dh-autoreconf
+Build-Depends: debhelper (>= 9), freeglut3-dev, libjpeg-dev, libxi-dev, libxmu-dev, libxt-dev, dh-autoreconf
 Standards-Version: 3.9.5
 
 Package: libjasper1

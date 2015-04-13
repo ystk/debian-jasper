@@ -1,3 +1,41 @@
+jasper (1.900.1-debian1-2.4) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Add 07-CVE-2014-8157.patch patch.
+    CVE-2014-8157: dec->numtiles off-by-one check in jpc_dec_process_sot().
+    (Closes: #775970)
+  * Add 08-CVE-2014-8158.patch patch.
+    CVE-2014-8158: unrestricted stack memory use in jpc_qmfb.c (Closes: #775970)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 22 Jan 2015 17:09:24 +0100
+
+jasper (1.900.1-debian1-2.3) unstable; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * Add 05-CVE-2014-8137.patch patch.
+    CVE-2014-8137: double-free in in jas_iccattrval_destroy(). (Closes: #773463)
+  * Add 06-CVE-2014-8138.patch patch.
+    CVE-2014-8138: heap overflow in jp2_decode(). (Closes: #773463)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 20 Dec 2014 08:42:19 +0100
+
+jasper (1.900.1-debian1-2.2) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Add 04-CVE-2014-9029.patch patch.
+    CVE-2014-9029: incorrect component number check in COC, RGN and QCC
+    marker segment decoders. (Closes: #772036)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 05 Dec 2014 08:39:16 +0100
+
+jasper (1.900.1-debian1-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload (acked by maintainer)
+  * Change B-D to libjpeg-dev to finish the transition to libjpeg-turbo
+    (Closes: #763475)
+
+ -- Ondřej Surý <ondrej@debian.org>  Mon, 29 Sep 2014 15:25:32 +0200
+
 jasper (1.900.1-debian1-2) unstable; urgency=medium
 
   * debian/rules: Changed from dh $@ --with autotools_dev to autoreconf
