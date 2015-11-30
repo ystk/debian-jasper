@@ -1,3 +1,14 @@
+jasper (1.900.1-7+squeeze4) squeeze-lts; urgency=high
+
+  * Non-maintainer upload by the Squeeze LTS Team.
+  * Add 07-CVE-2014-8157.patch patch.
+    CVE-2014-8157: dec->numtiles off-by-one check in jpc_dec_process_sot().
+    (Closes: #775970)
+  * Add 08-CVE-2014-8158.patch patch.
+    CVE-2014-8158: unrestricted stack memory use in jpc_qmfb.c (Closes: #775970)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 27 Jan 2015 20:20:04 +0100
+
 jasper (1.900.1-7+squeeze3) squeeze-lts; urgency=high
 
   * Non-maintainer upload by the Squeeze LTS Team.
