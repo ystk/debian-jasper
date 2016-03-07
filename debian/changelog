@@ -1,3 +1,15 @@
+jasper (1.900.1-debian1-2.4+deb8u1) jessie-security; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * CVE-2016-1577: Prevent double-free in jas_iccattrval_destroy()
+    (Closes: #816625)
+  * CVE-2016-2089: matrix rows_ NULL pointer dereference in jas_matrix_clip()
+    (Closes: #812978)
+  * CVE-2016-2116: Prevent jas_stream_t memory leak in
+    jas_iccprof_createfrombuf() (Closes: #816626)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 06 Mar 2016 14:49:44 +0100
+
 jasper (1.900.1-debian1-2.4) unstable; urgency=high
 
   * Non-maintainer upload.
