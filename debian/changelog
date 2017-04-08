@@ -1,3 +1,9 @@
+jasper (1.900.1-debian1-2.4+deb8u3) jessie-security; urgency=medium
+
+  * CVE-2016-9591 CVE-2016-10249 CVE-2016-10251
+
+ -- Moritz Mühlenhoff <jmm@debian.org>  Sun, 02 Apr 2017 19:59:44 +0200
+
 jasper (1.900.1-debian1-2.4+deb8u2) jessie-security; urgency=medium
 
   * CVE-2016-1867 CVE-2016-8654 CVE-2016-8691 CVE-2016-8692
