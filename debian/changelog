@@ -1,3 +1,30 @@
+jasper (1.900.1-debian1-2.4+deb8u4) jessie-security; urgency=high
+
+  * Non-maintainer upload by the LTS team.
+  * Fix CVE-2015-5203:
+    Gustavo Grieco discovered an integer overflow vulnerability that allows
+    remote attackers to cause a denial of service or may have other unspecified
+    impact via a crafted JPEG 2000 image file.
+  * Fix CVE-2015-5221:
+    Josselin Feist found a double-free vulnerability that allows remote
+    attackers to cause a denial-of-service (application crash) by processing a
+    malformed image file.
+  * Fix CVE-2016-8690:
+    Gustavo Grieco discovered a NULL pointer dereference vulnerability that can
+    cause a denial-of-service via a crafted BMP image file. The update also
+    includes the fixes for the related issues CVE-2016-8884 and CVE-2016-8885
+    which complete the patch for CVE-2016-8690.
+  * Fix CVE-2017-13748:
+    It was discovered that jasper does not properly release memory used to
+    store image tile data when image decoding fails which may lead to a
+    denial-of-service.
+  * Fix CVE-2017-14132:
+    A heap-based buffer over-read was found related to the jas_image_ishomosamp
+    function that could be triggered via a crafted image file and may cause a
+    denial-of-service (application crash) or have other unspecified impact.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 16 Nov 2018 18:44:08 +0100
+
 jasper (1.900.1-debian1-2.4+deb8u3) jessie-security; urgency=medium
 
   * CVE-2016-9591 CVE-2016-10249 CVE-2016-10251
