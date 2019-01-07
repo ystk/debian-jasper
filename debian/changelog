@@ -1,3 +1,15 @@
+jasper (1.900.1-debian1-2.4+deb8u5) jessie-security; urgency=high
+
+  * Non-maintainer upload by the LTS team.
+  * Fix CVE-2018-18873, CVE-2018-19139, CVE-2018-19539, CVE-2018-19540,
+    CVE-2018-19541, CVE-2018-19542, CVE-2018-20570, CVE-2018-20584 and
+    CVE-2018-20622.
+  * Multiple issues were found in the JasPer JPEG-2000 library that could lead
+    to a denial-of-service (application crash), memory leaks and potentially
+    the execution of arbitrary code if a malformed image file is processed.
+
+ -- Markus Koschany <apo@debian.org>  Wed, 02 Jan 2019 22:59:23 +0100
+
 jasper (1.900.1-debian1-2.4+deb8u4) jessie-security; urgency=high
 
   * Non-maintainer upload by the LTS team.
