@@ -1,3 +1,11 @@
+jasper (1.900.1-debian1-2.4+deb8u6) jessie-security; urgency=high
+
+  * Non-maintainer upload by the LTS team.
+  * Improve CVE-2018-19542.patch: The original fix introduced a regression which
+    could break support for valid jp2 files.
+
+ -- Markus Koschany <apo@debian.org>  Sat, 13 Apr 2019 20:36:54 +0200
+
 jasper (1.900.1-debian1-2.4+deb8u5) jessie-security; urgency=high
 
   * Non-maintainer upload by the LTS team.
