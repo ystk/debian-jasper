@@ -1,3 +1,30 @@
+jasper (1.900.1-debian1-2.4+deb8u9) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS team.
+  * Add patch to fix null pointer access and heap buffer
+    overflow. (Fixes: CVE-2021-26926, CVE-2021-26927)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Thu, 11 Feb 2021 00:57:35 +0530
+
+jasper (1.900.1-debian1-2.4+deb8u8) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS team.
+  * Add patch to fix a heap buffer overflow in
+    libjasper/jp2/jp2_dec.c. (Fixes: CVE-2021-3272)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Thu, 02 Feb 2021 23:27:52 +0530
+
+jasper (1.900.1-debian1-2.4+deb8u7) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS team.
+  * CVE-2018-19139: Fix memory leaks by registering jpc_unk_destroyparms.
+  * CVE-2020-27828: Avoid maxrlvls more than upper bound to cause
+    heap-buffer-overflow.
+  * CVE-2018-19543 and CVE-2017-9782: There is a heap-based buffer over-read
+    of size 8 in the function jp2_decode in libjasper/jp2/jp2_dec.c.
+
+ -- Markus Koschany <apo@debian.org>  Fri, 11 Dec 2020 22:25:47 +0100
+
 jasper (1.900.1-debian1-2.4+deb8u6) jessie-security; urgency=high
 
   * Non-maintainer upload by the LTS team.
